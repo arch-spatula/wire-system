@@ -1,9 +1,9 @@
-import Hello from "./Components/Hello/Hello";
+import Button from "./Components/Molecules/Button/Button";
 
 function App() {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      <Hello />
+      <Button text="Hello Wire-System!" />
     </div>
   );
 }
