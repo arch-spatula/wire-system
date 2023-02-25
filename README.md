@@ -9,3 +9,5 @@ yarn start
 ```sh
 yarn test
 ```
+
+storybook 혹은 bit.dev는 나중에 사용할 생각입니다.
