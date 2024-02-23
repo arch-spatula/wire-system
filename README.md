@@ -8,11 +8,22 @@
 와이어 프레임 수준의 디자인 시스템
 
 ```sh
-yarn start
+pnpm storybook
 ```
 
+<!--
+```json
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
+``` -->
+
 ```sh
-yarn test
+pnpm build-storybook
 ```
 
 storybook 혹은 bit.dev는 나중에 사용할 생각입니다.
