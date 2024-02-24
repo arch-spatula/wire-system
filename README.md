@@ -26,7 +26,7 @@ pnpm storybook
 pnpm build-storybook
 ```
 
-storybook 혹은 bit.dev는 나중에 사용할 생각입니다.
+현재는 `storybook`을 사용할 것입니다. 나중에 `bit.js`로 마이그레이션할지도 모릅니다.
 
 # 모니터링
 
