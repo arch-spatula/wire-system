@@ -9,6 +9,23 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 * {
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 ```
+
+- 디자이너가 정한 이름을 활용하는 것이 적할합니다. 폰트는 비즈니스 도메인에 속한 지식입니다.
+- 개발자가 좋아하는 네이밍 컨벤션은 있어서 디자이너와 잘 상의하기 바랍니다.
+
+```css
+.대분류-중분류-무게 {
+  /*  */
+}
+```
+
+- 대분류는 `heading`, `body`, `caption`입니다. 중분류는 `1`, `2`, `3` ...입니다. 무게는 `b`, `r`입니다.
+
+| 전체 클래스명     |
+| ----------------- |
+| heading-1/2/3-b/r |
+| body-1/2-b/r      |
+| caption-1/2-b/r   |
