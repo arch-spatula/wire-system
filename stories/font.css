@@ -3,3 +3,107 @@
 * {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
+
+/* Landing, Title */
+.heading-1-b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.heading-1-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+/* List, Section */
+.heading-2-b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.heading-2-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* Card, List, Text Botton */
+.heading-3-b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.heading-3-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* Card, List, Text Botton */
+.body-1-b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.body-1-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Date, Botton, Paragraph */
+.body-2-b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.body-2-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* helper text */
+.caption-1-b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.caption-1-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.caption-2-b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.caption-2-r {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+}
