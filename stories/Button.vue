@@ -11,17 +11,17 @@ const props = withDefaults(
   defineProps<{
     label: string;
     primary: boolean;
-    size: 'small' | 'medium' | 'large';
+    // size: 'small' | 'medium' | 'large';
     backgroundColor: string;
   }>(),
   {
     label: '',
     primary: false,
-    size: 'large',
+    // size: 'large',
   }
 );
 
-const { label, primary, size, backgroundColor } = toRefs(props);
+const { label, primary, backgroundColor } = toRefs(props);
 
 const emit = defineEmits(['click']);
 
@@ -29,7 +29,7 @@ const classes = computed(() => ({
   button: true,
   'storybook-button--primary': primary.value,
   'storybook-button--secondary': !primary.value,
-  [`storybook-button--${size.value || 'medium'}`]: true,
+  // [`storybook-button--${size.value || 'medium'}`]: true,
   'body-2-r': true,
 }));
 

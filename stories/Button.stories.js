@@ -10,12 +10,12 @@ export default {
       control: 'color',
     },
     onClick: {},
-    size: {
-      control: {
-        type: 'select',
-      },
-      options: ['small', 'medium', 'large'],
-    },
+    // size: {
+    //   control: {
+    //     type: 'select',
+    //   },
+    //   options: ['small', 'medium', 'large'],
+    // },
   },
 };
 
@@ -33,16 +33,16 @@ export const Secondary = {
   },
 };
 
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
+// export const Large = {
+//   args: {
+//     size: 'large',
+//     label: 'Button',
+//   },
+// };
 
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
-};
+// export const Small = {
+//   args: {
+//     size: 'small',
+//     label: 'Button',
+//   },
+// };
